@@ -38,7 +38,7 @@ echo SITE_URL;
 
 echo"<hr><h3>Variable VS Constant</h3>";
 // 1.Defining a Constant (Fixed value)
-define("TAX_RATE", 0.06); //6% Sales Tax
+define("TAX_RATE", 0.08); //6% Sales Tax
 
 //2. Declaring Variables (Can Change)
 $itemName = "Laptop";
