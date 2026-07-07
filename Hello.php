@@ -16,7 +16,7 @@ echo "Hello World!";
 
 #You can also include HTML tags inside echo
 echo"<h1>Welcome to PHP Programming</h1>"; 
-echo"<hr><h3> My Name Is $nama</h3>";
+echo"<hr><h3> My Name Is $nama</h3>"; 
 echo "<br><br>";
 echo $nama;
 
