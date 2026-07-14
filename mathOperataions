@@ -1,0 +1,18 @@
+<?php
+
+$a = 15;
+$b = 4;
+echo"<p>  Operator </p>";
+
+$x = $a  + $b; //Addition =19
+$x = $a - $b; //Subtraction = 11
+$x = $a / $b;   //Division =3.75
+$x = $a * $b; //Multiplication
+$x = $a % $b;   //Modulus (Reminder) =3
+s$ = $a ** $b; //Expnentiation =50,625
+
+echo "$x";
+
+
+
+?>
