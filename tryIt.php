@@ -86,11 +86,44 @@
         echo"Voting Status: " .$status;
 
         echo"<hr>";
+        
+        
+        // Declare student details
+        $name1 = "Abu";
+        $marks1 = 75;
 
-        $stud1="Abu";
-        $stud2="Raj";
-        $mark1=75;
-        $mark2=85;
+        $name2 = "Raj";
+        $marks2 = 85;
 
-        if
+        // Function to calculate grade
+        $marks = $marks1;
+
+        if ($marks >= 80 && $marks <= 100) {
+            $grade = "A";
+        } elseif ($marks >= 70 && $marks <= 79) {
+            $grade = "B";
+        } elseif ($marks >= 60 && $marks <= 69) {
+            $grade = "C";
+        } elseif ($marks >= 50 && $marks <= 59) {
+            $grade = "D";
+        } elseif ($marks >= 0 && $marks < 50) {
+            $grade = "E";
+        } else {
+            $grade = "Invalid marks";
+        }
+
+
+        // Display Abu's result
+        echo "<h2>Student Grades</h2>";
+        echo "Name: " . $name1 . "<br>";
+        echo "Marks: " . $marks1 . "<br>";
+        echo "Grade: " . $grade . "<br><br>";
+
+        // Display Raj's result
+        echo "Name: " . $name2 . "<br>";
+        echo "Marks: " . $marks2 . "<br>";
+        echo "Grade: " . $grade . "<br>";
+
+        
+    
 ?>
